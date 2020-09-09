@@ -1,0 +1,58 @@
+*
+{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background: #f3f0f2;
+}
+
+h1
+{
+    font-family: 'Pacifico', cursive;
+}
+
+h2
+{
+    font-family: 'Pacifico', cursive;
+}
+
+h3
+{
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+nav
+{
+    display: flex;
+}
+
+a
+{
+text-decoration: none;
+}
+
+.link
+{
+    flex: 1 1 auto;
+    color: #aaaaaa;
+    font-family: 'Lexend Peta', sans-serif;
+    padding: 1%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    transition: 0.15s;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #f3f0f2;
+}
+
+.link:hover
+{
+    border-color: rgb(110, 158, 186);
+    color: rgb(110, 158, 186);
+}
+
+.linkbig
+{
+    font-family: 'Pacifico', cursive;
+    flex: 30;
+}

@@ -3,6 +3,11 @@
     font-family: 'Quicksand', sans-serif;
     margin: 0 auto;
     padding: 0;
+    line-height: 20pt;
+}
+
+body
+{
     background: #f3f0f2;
 }
 
@@ -31,17 +36,24 @@ a
 text-decoration: none;
 }
 
+.dreier
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .link
 {
     flex: 1 1 auto;
     color: #aaaaaa;
     font-family: 'Lexend Peta', sans-serif;
-    padding: 1%;
-    padding-bottom: 0.5%;
+    padding: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
     text-align: center;
     transition: 0.15s;
     border-bottom-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: #f3f0f2;
 }
 
@@ -55,4 +67,149 @@ text-decoration: none;
 {
     font-family: 'Pacifico', cursive;
     flex: 30;
+    padding: 1.5%;
+}
+
+#burgericon
+{
+    display: none;
+}
+
+#aufmacher
+{
+    background-image: url(img/jenny5.JPG);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 210px;
+    font-size: 40pt;
+    font-family: 'Pacifico', cursive;
+}
+
+#aufmacher h3
+{
+    margin-top: 40px;
+    background: none;
+    font-size: 12pt;
+}
+
+.textblock
+{
+    padding: 7%;
+    columns: 3;
+}
+
+.first-letter
+{
+    font-size: 35px;
+    line-height: 70px;
+    font-family: 'Pacifico', cursive;
+    color: #e9c47d;
+}
+
+.flexbox
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box4
+{
+    flex: 1;
+    height: 300px;
+    flex-basis: 38%;
+    padding: 3%;
+    background-size: cover;
+    background-position: center;
+    background-color: #d9ede7;
+    line-height: 20pt;
+}
+
+.box3
+{
+    flex: 1;
+    margin: 6%;
+    flex-basis: 15vw;
+    height: 17vw;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#portfolio
+{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center ;
+    align-items:flex-start;
+    align-content: flex-start;
+    margin: 0 auto;
+    max-height: 205vh;
+    text-align: center;
+}
+
+.box
+{
+    flex: 0 1 auto;
+    margin: 0.5vw;
+}
+
+.bild{
+    width: 36.5vh;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 675px)
+{
+
+    #burgericon
+    {
+        display: block;
+    }
+
+    .linkbig
+    {
+        flex: 20;
+    }
+
+    nav
+    {
+        height: 300px;
+        flex-direction: column;
+        margin-top: -255px;
+        transition: 0.5s;
+    }
+
+    #aufmacher
+    {
+        background-position: center;
+        height: 200px;
+        font-size: 30pt;
+        line-height: 40pt;
+        padding-top: 100px;
+    }
+
+    #aufmacher h3
+    {
+        display: none;
+    }
+
+    .textblock
+    {
+        columns: 1;
+    }
+
+    .flexbox
+    {
+        display: block;
+    }
+
+
+
+
 }
